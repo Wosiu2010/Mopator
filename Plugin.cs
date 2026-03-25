@@ -13,7 +13,7 @@ public class Plugin : BaseUnityPlugin
     #pragma warning disable CS8618
     const string GUID = "WaterGun.Mopator";
     const string NAME = "MopatorEnemy";
-    const string VER = "1.5.2";
+    const string VER = "1.5.3";
 
     public static Plugin Instance;
 
