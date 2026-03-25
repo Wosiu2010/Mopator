@@ -77,7 +77,7 @@ public class Plugin : BaseUnityPlugin
         //LethalLib.Modules.Enemies.RegisterEnemy(MopatorEnemy, Rarity.Value, Levels.LevelTypes.All, mopatornode);
         EnemyTypeRef mopatorEnemyRef = ScriptableObject.CreateInstance<EnemyTypeRef>();
 
-        mopatorEnemyRef.rarity = 70;
+        mopatorEnemyRef.rarity = Rarity.Value;
         mopatorEnemyRef.enemyType = MopatorEnemy;
         mopatorEnemyRef.infoNode = mopatornode;
         mopatorEnemyRef.spawnType = WaterGunLib.Modules.Enemies.SpawnType.Indoor;
